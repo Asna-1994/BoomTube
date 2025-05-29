@@ -1,6 +1,6 @@
 # BoomTube
 BoomTube - Video Streaming Platform
-🚀 Tech Stack
+Tech Stack
 Frontend
 
 React with TypeScript
@@ -24,7 +24,7 @@ Cloudinary for video storage
 Nodemon for development
 CORS for cross-origin requests
 
-🎯 Features Implemented
+ Features Implemented
 Core Features
 
 ✅ User Authentication - Registration, Login, JWT-based sessions
@@ -37,14 +37,14 @@ Core Features
 
 
 
-📋 Prerequisites
+Prerequisites
 Before running this application, make sure you have:
 
 Node.js (v14 or higher)
 npm or yarn
 MongoDB (local installation or MongoDB Atlas)
 
-🛠️ Installation & Setup
+ Installation & Setup
 1. Clone the Repository
 bashgit clone https://github.com/yourusername/boom-platform.git
 cd boom-platform
@@ -72,6 +72,7 @@ Start the frontend development server:
 bashnpm start
 4. Database Setup
 The application will automatically create the necessary collections when you first run it. No manual database setup required.
+
 🔧 API Documentation
 Authentication Endpoints
 Register User
@@ -147,7 +148,7 @@ Authorization: Bearer <token>
 
 
 
-🎮 Usage Guide
+Usage Guide
 1. User Registration & Login
 
 Visit the application at http://localhost:3000
@@ -186,7 +187,7 @@ Add comments below the video
 Use "Gift Creator" to send money to the creator
 Your wallet balance is displayed in the header
 
-🧪 Testing
+ Testing
 Manual Testing Scenarios
 
 User Flow: Register → Login → Upload Video → View Feed
@@ -208,7 +209,7 @@ Create a MongoDB Atlas cluster
 Update MONGODB_URI in environment variables
 Whitelist deployment server IPs
 
-🔐 Security Features
+ Security Features
 
 JWT Authentication with secure token handling
 Password Hashing using bcrypt
