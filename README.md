@@ -46,10 +46,11 @@ MongoDB (local installation or MongoDB Atlas)
 
  Installation & Setup
 1. Clone the Repository
-bashgit clone https://github.com/yourusername/boom-platform.git
+git clone https://github.com/Asna-1994/BoomTube.git
 cd boom-platform
-2. Backend Setup
-bashcd backend
+
+3. Backend Setup
+cd server
 npm install
 Create a .env file in the backend directory:
 envPORT=5000
@@ -62,15 +63,17 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 Start the backend server:
-bashnpm run dev
+npm run dev
+
 3. Frontend Setup
-bashcd frontend
+cd client
 npm install
 Create a .env file in the frontend directory:
 envREACT_APP_API_URL=http://localhost:5000
 Start the frontend development server:
-bashnpm start
-4. Database Setup
+npm start
+
+5. Database Setup
 The application will automatically create the necessary collections when you first run it. No manual database setup required.
 
 🔧 API Documentation
@@ -151,7 +154,7 @@ Authorization: Bearer <token>
 Usage Guide
 1. User Registration & Login
 
-Visit the application at http://localhost:3000
+Visit the application at http://localhost:5173
 Click "Sign Up" to create a new account
 Use the credentials to log in
 
